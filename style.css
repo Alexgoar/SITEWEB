@@ -1,0 +1,282 @@
+body{
+	font-family: Comic sans ms;
+   	clear: both;
+}
+
+h2{
+	text-align: center;
+}
+
+/* -------------------navbar------------------------ */
+
+nav{
+	width: 100%;
+	background-color: #424558;
+	position: sticky;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+.bleu:hover{
+	border-bottom: 5px solid #0070bb;
+	background-color: RGBa(000, 112, 192, 0.15);
+}
+
+.rouge:hover{
+	border-bottom: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.vert:hover{
+	border-bottom: 5px solid #028900;
+	background-color: RGBa(2, 137, 0, 0.15);
+}
+
+.jaune:hover{
+	border-bottom: 5px solid #D3C800;
+	background-color: RGBa(211, 200, 0, 0.15);
+}
+
+
+/* -------------------------blabladmescouilles----------------------*/
+
+footer{
+	background-color: #424558;
+	text-align: center;
+	bottom: 0;
+	left:0;
+	right:0;
+	display:block;
+	padding: 40px 40px 40px 40px ;
+}
+
+.center{
+	color : white;
+}
+
+/* -------------------------Page index----------------------*/
+
+.indexbloc{
+	margin: 0 auto;
+   	width:600px; 
+   	height:600px; 
+   	padding:5px; 
+   	border: 1px dashed gray; 
+   	font-size:16px;
+   	position: relative;
+   	margin-bottom:20px;
+} 
+
+.titlebloc{
+	font-size:25px;
+	color : green;
+}
+
+.bloc img{
+	height: 350px;
+}
+
+
+.container{
+}
+
+/* -------------------------Blocs a droite----------------------*/
+
+
+.right{
+	position: relative;
+	float: right;
+	width: 250px;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.blocright{
+	border: 1px dashed gray; 
+	margin-bottom: 20px;
+}
+
+.righttoptitle{
+	font-size:25px;
+	color: green;
+	border-bottom: 1px solid gray;
+}
+
+.righttop1 {
+	font-size:20px;
+	color: gold;
+}
+
+.righttop2 {
+	font-size:20px;
+	color: silver;
+}
+
+.righttop3 {
+	font-size:20px;
+	color: gold;
+}
+
+.righttop {
+	font-size:20px;
+	color: black;
+}
+
+
+
+
+
+*{box-sizing:border-box}
+
+/* -------------------------slideshow----------------------*/
+.slideshow-container {
+  	max-width: 850px;
+  	position: relative;
+  	margin: auto;
+}
+
+/* cache les images par dft */
+.mySlides {
+  	display: none;
+}
+
+.mySlides img{
+    float: center;
+    width:  250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  	cursor: pointer;
+  	position: absolute;
+  	top: 50%;
+  	width: auto;
+  	margin-top: -22px;
+  	padding: 16px;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 18px;
+  	transition: 0.6s ease;
+  	border-radius: 0 3px 3px 0;
+  	user-select: none;
+}
+
+/* next a droite */
+.next {
+  	right: 0;
+  	border-radius: 3px 0 0 3px;
+}
+
+/* changement d'opacité qd on met la souris dessus */
+.prev:hover, .next:hover {
+  	background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption */
+.text {
+	background-color: rgba(0,0,0,0.5)
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* nb txt */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* les dots */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  	background-color: #717171;
+}
+
+/* Animation fade */
+.fade {
+  	-webkit-animation-name: fade;
+  	-webkit-animation-duration: 1.5s;
+ 	animation-name: fade;
+  	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  	from {opacity: .4} 
+  	to {opacity: 1}
+}
+
+@keyframes fade {
+  	from {opacity: .4} 
+  	to {opacity: 1}
+}
+
+
+/* -------------------------Page le top----------------------*/
+
+.bloctop{
+	margin: 0 auto;
+   	width:600px; 
+   	height:400px; 
+   	padding:5px; 
+   	border: 1px dashed gray; 
+   	font-size:16px;
+   	position: relative;
+
+} 
+
+.titletop1{
+	font-size:25px;
+	color : gold;
+}
+
+.titletop2{
+	font-size:25px;
+	color : silver;
+}
+
+.titletop3{
+	font-size:25px;
+	color : #cd7f32;
+}
+
+.titletop{
+	font-size:25px;
+	color : black;
+}
